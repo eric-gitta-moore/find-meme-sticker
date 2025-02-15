@@ -1,17 +1,12 @@
 {
   "name": "vue3-antdv-admin",
-  "version": "2.0.0",
-  "packageManager": "pnpm@9.4.0",
+  "packageManager": "pnpm@9.0.2",
   "type": "module",
   "engines": {
     "node": ">=18",
     "pnpm": ">=9.0.2"
   },
-  "author": {
-    "name": "buqiyuan",
-    "email": "1743369777@qq.com",
-    "url": "https://github.com/buqiyuan"
-  },
+  "private": true,
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "postinstall": "pnpm nx:build",
@@ -130,21 +125,6 @@
     "vue-tsc": "~2.2.0"
   },
   "__npminstall_done": false,
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/buqiyuan/vue3-antdv-admin"
-  },
-  "homepage": "https://buqiyuan.gitee.io/vue3-antdv-admin",
-  "keywords": [
-    "vue",
-    "ant-design-vue",
-    "vue3",
-    "ts",
-    "tsx",
-    "admin",
-    "typescript"
-  ],
-  "license": "MIT",
   "target": "web",
   "pnpm": {
     "overrides": {},
