@@ -1,0 +1,14 @@
+include:
+  - ./pgsql/postgres-compose.yml
+  - ./redis/redis-compose.yml
+
+# services:
+#   postgres:
+#     extends:
+#       file: ./pgsql/postgres-compose.yml
+#       service: postgres
+
+#   redis:
+#     extends:
+#       file: ./redis/redis-compose.yml
+#       service: redis
