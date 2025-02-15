@@ -149,4 +149,4 @@ docker-compose -f docker-compose.prod.yml up -d
 
 ## 许可证
 
-本项目采用MIT许可证 - 查看 [LICENSE](LICENSE) 文件了解详细信息
+本项目采用 LGPL 许可证 - 查看 [LICENSE](LICENSE) 文件了解详细信息
