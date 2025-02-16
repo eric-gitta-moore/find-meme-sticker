@@ -24,19 +24,11 @@ export function Header() {
           </nav>
         </div>
         {/* 搜索框 */}
-        <div className="flex items-center">
-          <div className="relative">
-            <Input 
-              className="w-64 pr-10 bg-white" 
-              placeholder="搜索表情包..." 
-            />
-            <Button 
-              size="icon"
-              className="absolute right-0 top-0 h-full bg-blue-500 hover:bg-blue-600"
-            >
-              <Search className="h-4 w-4 text-white" />
-            </Button>
-          </div>
+        <div className="flex w-full max-w-[18rem] items-center space-x-2">
+          <Input type="search" placeholder="表情关键词，直接搜" className="bg-white" />
+          <Button variant="secondary" size="icon" className="aspect-square h-9">
+            <Search className="h-4 w-4" />
+          </Button>
         </div>
       </div>
     </header>
